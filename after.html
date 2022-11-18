@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      span {
+        position: relative;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: #b17ae7;
+        color: #ffffff;
+      }
+      span::after {
+        content: "";
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: red;
+        display: block;
+        position: absolute;
+        right: -1px;
+        bottom: -1px;
+      }
+    </style>
+  </head>
+  <body>
+    <span>PK</span>
+  </body>
+</html>
